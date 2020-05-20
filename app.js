@@ -33,6 +33,7 @@ function startGame() {
     levelUp = 0;
     //Set level up display to nothing
     levelUpDisplay.textContent = "";
+    levelDisplay.textContent = "";
     //Generate new random apple
     randomApple();
     //Set direction to right
